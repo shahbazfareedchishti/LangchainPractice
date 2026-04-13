@@ -1,4 +1,4 @@
-# LangChain Practice Repository
+# LangChain Playbook: RAG, Agents, and LLMs
 
 This repository contains a collection of Python scripts demonstrating various concepts and implementations using the LangChain framework. It serves as a personal practice ground for exploring large language models (LLMs), prompt engineering, document retrieval, and complex agents.
 
