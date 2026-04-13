@@ -1,0 +1,15 @@
+import os
+from langchain_groq import ChatGroq
+from dotenv import load_dotenv 
+
+load_dotenv()
+
+llm = ChatGroq(
+    model="llama-3.1-8b-instant",
+    groq_api_key=os.getenv("GROQ_API_KEY"),
+    temperature=0.7,
+)
+
+response = llm.invoke("give harry potter title in json format, give title, author, pubishing date")
+
+print(response)

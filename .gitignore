@@ -1,0 +1,8 @@
+# Ignore sensitive environment variables
+.env
+.venv
+
+# Ignore dependency folders (never push these!)
+__pycache__/.env
+__pycache__/
+*.db
